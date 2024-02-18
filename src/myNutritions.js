@@ -1,8 +1,9 @@
-function myNutritions(){
+function myNutritions({label,quantity,unit}){
 
 return(
-<h1></h1>
-
+    <div>
+            <p><b>{label}</b> - {quantity} {unit}</p>
+        </div>
 )
 
 }
